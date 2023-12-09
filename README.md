@@ -1,7 +1,11 @@
 # MealMentor
 #### <em> To better equip all people to achieve their health and fitness goals </em>
 
-https://github.com/jlokos/meal-mentor/assets/71952027/fc51f127-ec87-4313-a6b9-3d7dfe039c3b
+
+
+https://github.com/jlokos/meal-mentor/assets/71952027/d7653047-4d31-42f6-a500-836dafd65eb1
+
+
 
 # Installation
 Clone this repository.
