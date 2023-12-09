@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "MealMentor",
+    "slug": "MealMentor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#191919"
+    },
+    "plugins": [
+      [
+        "expo-barcode-scanner",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access camera."
+        }
+      ]
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "Allow $(PRODUCT_NAME) to access camera.",
+        "NSMicrophoneUsageDescription": "Allow $(PRODUCT_NAME) to access your microphone"
+      },
+      "bundleIdentifier": "edu.psu.jlokos.MealMentor"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/asset.png",
+        "backgroundColor": "#191919"
+      },
+      "permissions": [
+        "android.permission.CAMERA"
+      ],
+      "package": "edu.psu.jlokos.MealMentor"
+    },
+    "web": {
+      "favicon": "./assets/asset.png"
+    },
+    "owner": "ssysm",
+    "extra": {
+      "eas": {
+        "projectId": "dc14a824-c5bc-4c4b-91bb-a02d3b32f14a"
+      }
+    }
+  }
+}
